@@ -112,11 +112,11 @@ body,
 
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
     /* gap: -1rem; */
 
     font-size: 400;
-    color: #fff;
+    color: #fbfbfb;
     text-decoration: none;
 
     border: 1px solid #000000b8;
@@ -150,14 +150,14 @@ body,
     .grid-buttons a {
         width: 30%;
         height: 3rem;
-    
+        
+
         display: flex;
         align-items: center;
         justify-content: space-around;
-        /* gap: -1rem; */
     
         font-size: 1.3rem;
-        color: #fff;
+        color: rgb(255, 255, 255);
         text-decoration: none;
     
         border: 1px solid #000000b8;
@@ -184,4 +184,8 @@ body,
     0% {
         transform: translateX(100%);
     }
+}
+
+.arrow {
+    transform: rotate(-35deg);
 }
